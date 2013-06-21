@@ -1,0 +1,43 @@
+"Games"
+{
+	"tf"
+	{
+		"Offsets"
+		{
+			"EquipWearable"
+			{
+				"windows"	"424"
+				"linux"		"425"
+				"mac"		"425"
+			}
+
+			"RemoveWearable"
+			{
+				"windows"	"425"
+				"linux"		"426"
+				"mac"		"426"
+			}
+		}
+	}
+
+	"csgo"
+	{
+		"Offsets"
+		{
+			"EquipWearable"
+			{
+				"windows"	"326"
+				"linux"		"327"
+				"mac"		"327"
+			}
+
+			"RemoveWearable"
+			{
+				"windows"	"327"
+				"linux"		"328"
+				"mac"		"328"
+			}
+		}
+	}
+
+}
