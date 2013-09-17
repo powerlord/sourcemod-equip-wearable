@@ -22,5 +22,7 @@ public SharedPlugin:__pl_equipwearable =
 public __pl_equipwearable_SetNTVOptional()
 {
 	MarkNativeAsOptional("EquipPlayerWearable");
+	MarkNativeAsOptional("RemovePlayerWearable");
+	MarkNativeAsOptional("IsWearable");
 	//MarkNativeAsOptional("GetPlayerWearableSlot");
 }
