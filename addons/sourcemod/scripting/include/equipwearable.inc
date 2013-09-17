@@ -4,6 +4,8 @@ native EquipPlayerWearable(client, wearable);
 
 native RemovePlayerWearable(client, wearable);
 
+native IsWearable(entity);
+
 //native GetPlayerWearableSlot(client, entity);
 
 public SharedPlugin:__pl_equipwearable =

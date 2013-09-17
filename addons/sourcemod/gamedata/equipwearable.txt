@@ -6,38 +6,24 @@
 		{
 			"EquipWearable"
 			{
-				"windows"	"424"
-				"linux"		"425"
-				"mac"		"425"
-			}
-
-			"RemoveWearable"
-			{
 				"windows"	"425"
 				"linux"		"426"
 				"mac"		"426"
 			}
-		}
-	}
-
-	"csgo"
-	{
-		"Offsets"
-		{
-			"EquipWearable"
-			{
-				"windows"	"326"
-				"linux"		"327"
-				"mac"		"327"
-			}
 
 			"RemoveWearable"
 			{
-				"windows"	"327"
-				"linux"		"328"
-				"mac"		"328"
+				"windows"	"426"
+				"linux"		"427"
+				"mac"		"427"
+			}
+
+			"IsWearable"
+			{
+				"windows"	"87"
+				"linux"		"88"
+				"mac"		"88"
 			}
 		}
 	}
-
 }
