@@ -67,6 +67,33 @@ stock TF2_RemoveAllWearables(client)
 			}
 		}
 	}
+
+	while ((wearable = FindEntityByClassname(wearable, "tf_powerup_bottle")) != -1)
+	{
+		if (IsValidEntity(wearable))
+		{
+			new player = GetEntPropEnt(wearable, Prop_Send, "m_hOwnerEntity");
+			if (client == player)
+			{
+				RemovePlayerWearable(client, wearable);
+				AcceptEntityInput(wearable, "Kill");
+			}
+		}
+	}
+
+	while ((wearable = FindEntityByClassname(wearable, "tf_weapon_spellbook")) != -1)
+	{
+		if (IsValidEntity(wearable))
+		{
+			new player = GetEntPropEnt(wearable, Prop_Send, "m_hOwnerEntity");
+			if (client == player)
+			{
+				RemovePlayerWearable(client, wearable);
+				AcceptEntityInput(wearable, "Kill");
+			}
+		}
+	}
+	
 }
 
 public SharedPlugin:__pl_equipwearable =
