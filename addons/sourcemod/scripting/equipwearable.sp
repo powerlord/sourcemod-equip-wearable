@@ -6,7 +6,7 @@ public Plugin:myinfo =
 	name = "[TF2] EquipWearable",
 	author = "Powerlord",
 	description = "Quick API for EquipWearable so I don't have to have this in every plugin involving wearables.",
-	version = "1.0",
+	version = "1.0.1",
 	url = "<- URL ->"
 }
 
@@ -36,6 +36,8 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max)
 
 public OnPluginStart()
 {
+	CreateConVar("equipwearable_version",);
+	
 	hGameConf = LoadGameConfigFile("equipwearable");
 	
 	StartPrepSDKCall(SDKCall_Player);
